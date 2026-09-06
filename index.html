@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terrasicca</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="intro-overlay" class="intro-overlay">
+    <div class="intro-inner">
+      <div id="intro-idle">
+        <p class="intro-logo">TERRASICCA</p>
+        <p class="intro-sub">Archive System</p>
+        <button id="intro-trigger" class="intro-trigger">[ INITIALIZE ]</button>
+      </div>
+      <div id="intro-sequence" class="intro-sequence hidden">
+        <div id="sequence-lines"></div>
+        <div class="sequence-progress">
+          <div id="sequence-progress-bar" class="sequence-progress-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main-content" class="main-content">
+    <div class="app">
+      <header class="topbar">
+        <a href="index.html" class="topbar-logo">TERRASICCA</a>
+        <button class="sidebar-toggle" aria-label="메뉴 열기">INDEX</button>
+        <div class="search-wrap">
+          <input type="search" class="search-input" placeholder="기업, 도시, 인물, 용어 검색...">
+        </div>
+        <span class="topbar-status">BLUENET // ONLINE</span>
+      </header>
+
+      <div class="layout">
+        <aside class="sidebar">
+          <p class="sidebar-label">ARCHIVE INDEX</p>
+          <nav class="sidebar-nav">
+            <a href="index.html" class="active">세계관 개요</a>
+            <a href="pages/world.html">세계관</a>
+            <a href="pages/characters.html">캐릭터</a>
+            <a href="pages/rules.html">규칙</a>
+            <a href="pages/sessions.html">세션</a>
+          </nav>
+          <div class="setting-status">
+            <p class="setting-status-title">SETTING STATUS</p>
+            <p>인류는 멸망하지 않았다. 살아남는 데 필요한 모든 것에 가격표가 붙었을 뿐이다.</p>
+          </div>
+        </aside>
+
+        <main class="content">
+          <section class="hero-banner">
+            <p class="hero-breadcrumb">EARTH / FORMER UNITED STATES / POST WHITE NIGHT</p>
+            <h1>살아남는 데 필요한 모든 것에 가격표가 붙었다.</h1>
+            <p class="hero-lead">
+              기후위기를 막기 위해 궤도에 쏘아 올린 헬리오스 위성망이 폭주한 날, 밤은 오지 않았다.
+              대륙은 사막이 되었고 국가는 사라졌다. 이제 물을 소유한 자가 세계를 지배한다.
+            </p>
+            <div class="hero-stats">
+              <div>
+                <p class="hero-stat-label">DROP</p>
+                <p class="hero-stat-desc">1 DROP = 표준 음용수 100mL. 물을 담보로 발행되는 디지털 수권.</p>
+              </div>
+              <div>
+                <p class="hero-stat-label">七井</p>
+                <p class="hero-stat-desc">칠정. 블루넷을 공동 운영하는 일곱 초거대기업.</p>
+              </div>
+              <div>
+                <p class="hero-stat-label">HELIOS</p>
+                <p class="hero-stat-desc">헬리오스 기후조정망. 붕괴했지만 일부 위성은 아직 궤도를 돈다.</p>
+              </div>
+            </div>
+          </section>
+
+          <article class="article-section">
+            <p class="section-tag">01 / CATASTROPHE</p>
+            <h2>백야</h2>
+            <p>
+              헬리오스 위성망이 폭주한 사건 당일은 <strong>백야(白夜)</strong>라고 불린다.
+              궤도의 반사 위성들이 태양광을 계속 반사하면서 하늘 전체가 새하얗게 타올랐고,
+              그날 밤은 오지 않았다.
+            </p>
+            <p>
+              백야 이후 극지방이 붕괴하고 해양 온도가 폭등했으며, 내륙의 강우가 끊기고
+              대륙 대부분이 사막화되었다. 인류는 먼저 물에 잠겨 죽었고, 폭풍에 휩쓸려 죽었으며,
+              마지막에는 갈증으로 죽었다. 국가는 사라지고 기업과 생존도시가 그 자리를 차지했다.
+            </p>
+            <p>
+              헬리오스 위성망은 완전히 파괴되지 않았다. 일부 위성은 지금도 망가진 기후복구 명령을 수행하며,
+              정렬된 반사 위성이 특정 지역에 태양열을 집중하는 <strong>일소</strong>가 간헐적으로 발생한다.
+            </p>
+          </article>
+
+          <article class="article-section">
+            <p class="section-tag">02 / ARCHIVE</p>
+            <h2>빠른 탐색</h2>
+            <div class="card-grid">
+              <a href="pages/world.html" class="card">
+                <span class="card-icon">/world</span>
+                <h3>세계관</h3>
+                <p>백야, 칠정, 도시 형태, 갱단, 핵심 갈등</p>
+              </a>
+              <a href="pages/characters.html" class="card">
+                <span class="card-icon">/char</span>
+                <h3>캐릭터</h3>
+                <p>기업인·용병·장사치·기술꾼, PC/NPC</p>
+              </a>
+              <a href="pages/rules.html" class="card">
+                <span class="card-icon">/rules</span>
+                <h3>규칙</h3>
+                <p>초기 클래스, 열화증, 용어 사전</p>
+              </a>
+              <a href="pages/sessions.html" class="card">
+                <span class="card-icon">/log</span>
+                <h3>세션</h3>
+                <p>플레이 기록, 세션 로그</p>
+              </a>
+            </div>
+          </article>
+
+          <article class="article-section">
+            <p class="section-tag">03 / UPDATE</p>
+            <h2>최근 업데이트</h2>
+            <ul class="update-list">
+              <li>
+                <time datetime="2026-09-03">2026.09.03</time>
+                <span>세계관 종합 정리 반영 — 백야, 칠정, 드롭, 도시 형태</span>
+              </li>
+              <li>
+                <time datetime="2026-09-03">2026.09.03</time>
+                <span>아카이브 시스템 구축</span>
+              </li>
+              <li>
+                <time>--------</time>
+                <span>첫 세션 기록을 추가해 보세요</span>
+              </li>
+            </ul>
+          </article>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/intro.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>
