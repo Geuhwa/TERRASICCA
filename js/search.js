@@ -39,6 +39,7 @@
     { page: "권력과 조직", heading: "아르고스 시큐어 네트워크 ARGOS SECURE NETWORKS", text: "ASN. 블루넷과 데이터의 실질적 관리자. 금융결제, 신원인증, 통신, AI, 보안·감시, 언론·가상현실. 한 사람의 계좌·신분·시민권을 모두 삭제해 사회적으로 존재하지 않는 사람으로 만들 수 있다.", url: "pages/world-power.html#factions" },
     { page: "권력과 조직", heading: "이클립스 전술국 ECLIPSE TACTICAL BUREAU", text: "ETB. 블루 테이블 공동인가 초기업적 특수치안조직. 군용 사이버웨어 폭주자, 대형 전투드론, 블루넷·급수시설 테러, 전투 AI 등 도시 단위 피해를 일으킬 수 있는 위협에 대응.", url: "pages/world-power.html#orgs" },
     { page: "권력과 조직", heading: "라자루스 LAZARUS MEDICAL RESPONSE", text: "LMR. 회원제 응급의료·전투구조·의료보험 기업. 가입자 생체신호가 위험수준에 도달하면 무장 구조팀이 출동. 계약등급: 더스트 → 쉘터 → 오아시스 → 에덴.", url: "pages/world-power.html#orgs" },
+    { page: "권력과 조직", heading: "돔 시빅 시큐어리티 DOME CIVIC SECURITY", text: "DCS. 돔 시티의 일상 치안을 담당하는 시민경찰 조직. 순찰, 범죄수사, 교통통제, 소요 진압과 지역 안전. 도시급 재난·초고위험 전투는 이클립스에 인계.", url: "pages/world-power.html#orgs" },
     { page: "권력과 조직", heading: "열화증", text: "과도한 사이버웨어, 신경계 과부하, 전투 스트레스, 고온·탈수로 발생하는 신경붕괴 증상. 체온 상승·극심한 갈증, 감정·감각 지연, 사이버웨어 환상통, 위협 인식 장애.", url: "pages/world-power.html#orgs" },
     { page: "권력과 조직", heading: "로우라인 LOWLINE", text: "LOW. 돔 하층·지하 기반시설 장악. 밀입국, 비밀통로, 불법 전력·냉각망, 시설 침투, 밀수.", url: "pages/world-power.html#gangs" },
     { page: "권력과 조직", heading: "벨벳 스태틱 VELVET STATIC", text: "VS. 유흥·정보·기억·신분세탁. 감각기록, 불법 신경계 개조, 기업인 협박, 가짜 시민권, 기억조작.", url: "pages/world-power.html#gangs" },
@@ -47,6 +48,7 @@
     { page: "권력과 조직", heading: "데드 에어 DEAD AIR", text: "DA. 정체불명 넷러너 집단. 블루넷 공격, 신분 삭제·조작, 기업기밀 탈취, 전투드론 탈취, 가짜 재난경보.", url: "pages/world-power.html#gangs" },
     { page: "권력과 조직", heading: "블랙탑 유니언 BLACKTOP UNION", text: "BTU. 운전사·정비사 무장노조에서 성장한 도로조직. 독립 수송, 밀수, 충전소·도로 장악, 카론과 경쟁.", url: "pages/world-power.html#gangs" },
     { page: "권력과 조직", heading: "애시 크라운 ASH CROWN", text: "AC. 돔 외곽·장막도시 대형 스트리트 갱. 구역 관리, 무기·약물, 투기장, 기업물자 강탈, 시위·폭동.", url: "pages/world-power.html#gangs" },
+    { page: "권력과 조직", heading: "아이언 랜턴 카라반 IRON LANTERN CARAVAN", text: "ILC. 장막 도시를 거점으로 황무지 교역로를 오가는 대상단. 물·의약품·기계 부품 운송. 철저한 장부 관리와 신용.", url: "pages/world-power.html#caravans" },
 
     // 문화 & 갈등 (world-culture.html)
     { page: "문화 & 갈등", heading: "돔 시티 문화", text: "기업 중심 주간생활. VR·대형 엔터테인먼트, 광범위한 감시. 사이버웨어와 패션의 대중화.", url: "pages/world-culture.html" },
@@ -80,6 +82,8 @@
     { page: "용어 사전", heading: "트라이던트 TRIDENT", text: "케르베로스 디펜스 그룹의 기업군 핵심 전력.", url: "pages/rules-glossary.html" },
     { page: "용어 사전", heading: "ETB 이클립스", text: "Eclipse Tactical Bureau. 블루 테이블 공동인가 특수치안조직.", url: "pages/rules-glossary.html" },
     { page: "용어 사전", heading: "LMR 라자루스", text: "Lazarus Medical Response. 회원제 응급의료·전투구조 기업.", url: "pages/rules-glossary.html" },
+    { page: "용어 사전", heading: "DCS 돔 시빅 시큐어리티", text: "Dome Civic Security. 돔 시티 일상 치안을 담당하는 시민경찰 조직.", url: "pages/rules-glossary.html" },
+    { page: "용어 사전", heading: "ILC 아이언 랜턴 카라반", text: "Iron Lantern Caravan. 장막도시를 거점으로 황무지 교역로를 오가는 대상단.", url: "pages/rules-glossary.html" },
     { page: "용어 사전", heading: "열화증", text: "사이버웨어 과부하로 인한 신경붕괴 증상.", url: "pages/rules-glossary.html" },
     { page: "용어 사전", heading: "패처 Patcher", text: "현장 응급수리·의료 기술자.", url: "pages/rules-glossary.html" },
     { page: "용어 사전", heading: "넷러너 Netrunner", text: "블루넷 해킹·침투 전문가.", url: "pages/rules-glossary.html" },

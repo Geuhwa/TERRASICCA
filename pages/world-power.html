@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>세계관 — 권력과 조직 — White Night Archive</title>
+  <title>세계관 — 권력과 조직 — Terrasicca</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -46,21 +46,35 @@
         <div class="page-head">
           <p class="section-tag">WORLD / POWER</p>
           <h1>권력과 조직</h1>
-          <p>블루넷을 쥔 칠정, 위협을 다루는 특수 조직, 그리고 거리의 갱단</p>
+          <p>블루넷을 쥔 칠정, 위협을 다루는 특수 조직, 거리의 갱단, 그리고 황무지를 잇는 카라반</p>
         </div>
 
         <article class="article-section" id="factions">
           <p class="section-tag">07 / FACTIONS</p>
-          <div style="display:flex;align-items:flex-start;gap:1.25rem;">
+          <div class="faction-entry faction-entry-inline"
+               style="display:flex;align-items:flex-start;gap:1.25rem;"
+               data-tag="BLUE TABLE"
+               data-name-ko="블루 테이블"
+               data-name-en="THE BLUE TABLE"
+               data-summary="헬리오스 계획에 참여한 기업들의 후신이자 블루넷 공동 운영권을 가진 일곱 메가코프의 수권관리이사회. 드롭 총발행량, 수맥 소유권, 도시 블루넷 접속, 재난지역 배급, 기업 간 분쟁, 신규 도시 승인을 관리한다."
+               data-emblem="../images/factions/bluetable.jpg"
+               data-org="../images/factions/org/bluetable.jpg">
             <div>
               <h2>칠정 (七井) — 일곱 우물</h2>
-              <p>헬리오스 계획에 참여한 기업들의 후신이자 블루넷 공동 운영권을 가진 일곱 개의 메가코프. <strong>블루 테이블</strong>에서 대표를 파견하는 수권관리이사회가 드롭 총발행량, 수맥 소유권, 도시 블루넷 접속, 재난지역 배급, 기업 간 분쟁, 신규 도시 승인을 관리한다.</p>
+              <p>헬리오스 계획에 참여한 기업들의 후신이자 블루넷 공동 운영권을 가진 일곱 개의 메가코프. <strong>블루 테이블</strong>에서 대표를 파견하는 수권관리이사회가 드롭 총발행량, 수맥 소유권, 도시 블루넷 접속, 재난지역 배급, 기업 간 분쟁, 신규 도시 승인을 관리한다. <span style="color:var(--text-dim);font-size:0.8rem;">(블루 테이블 클릭 시 상세)</span></p>
             </div>
             <img class="faction-img" src="../images/factions/bluetable.jpg" alt="Blue Table" style="width:120px;height:120px;">
           </div>
 
           <ul class="item-list">
-            <li>
+            <li class="faction-entry"
+                data-id="nereid"
+                data-tag="NHS"
+                data-name-ko="네레이드 하이드로시스템즈"
+                data-name-en="NEREID HYDROSYSTEMS"
+                data-summary="수자원 분야의 최강자. 수맥탐사, 지하수 채굴, 정수·저수, 수질 인증, 드롭 발행량 심사, 담수화 연구. 물을 인간의 기본권이 아니라 기업이 생산하는 상품으로 본다. 완성된 해수 담수화 기술을 숨기고 있다는 의혹."
+                data-emblem="../images/factions/nereid.jpg"
+                data-org="../images/factions/org/nereid.jpg">
               <div class="faction-text">
                 <span class="tag">NHS</span>
                 <h3>네레이드 하이드로시스템즈 <small>NEREID HYDROSYSTEMS</small></h3>
@@ -68,7 +82,14 @@
               </div>
               <img class="faction-img" src="../images/factions/nereid.jpg" alt="Nereid Hydrosystems">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="solaris"
+                data-tag="SOI"
+                data-name-ko="솔라리스 궤도산업"
+                data-name-en="SOLARIS ORBITAL INDUSTRIES"
+                data-summary="헬리오스 계획의 직계 후신. 태양광 발전, 궤도시설, 위성통신, 일소 조기경보, 기후관측. 헬리오스 중앙 관제권을 잃었다고 주장하지만, 일소를 비정상적으로 정확하게 예측한다."
+                data-emblem="../images/factions/solaris.jpg"
+                data-org="../images/factions/org/solaris.jpg">
               <div class="faction-text">
                 <span class="tag">SOI</span>
                 <h3>솔라리스 궤도산업 <small>SOLARIS ORBITAL INDUSTRIES</small></h3>
@@ -76,7 +97,14 @@
               </div>
               <img class="faction-img" src="../images/factions/solaris.jpg" alt="Solaris Orbital Industries">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="arcadia"
+                data-tag="AH"
+                data-name-ko="아르카디아 해비타트"
+                data-name-en="ARCADIA HABITAT"
+                data-summary="돔과 도시생활을 판매하는 기업. 돔 건설, 인공대기·냉방, 수경재배, 주택·병원·학교, 기업시민권, 도시행정. 아르카디아의 도시는 국가가 아니라 생존 서비스에 가깝다."
+                data-emblem="../images/factions/arcadia.jpg"
+                data-org="../images/factions/org/arcadia.jpg">
               <div class="faction-text">
                 <span class="tag">AH</span>
                 <h3>아르카디아 해비타트 <small>ARCADIA HABITAT</small></h3>
@@ -84,7 +112,14 @@
               </div>
               <img class="faction-img" src="../images/factions/arcadia.jpg" alt="Arcadia Habitat">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="morphos"
+                data-tag="MB"
+                data-name-ko="모르포스 바이오다인"
+                data-name-en="MORPHOS BIODYNE"
+                data-summary="소수 정예와 인간 개조를 중시하는 군산복합체. 고급 사이버웨어, 생체조직형 의체, 스마트건, 단분자 도검, 유전자 강화. 정예 특수부대 메타모프. &quot;인간에게 무기를 쥐여주지 않는다. 인간을 무기로 만든다.&quot;"
+                data-emblem="../images/factions/morphos.jpg"
+                data-org="../images/factions/org/morphos.jpg">
               <div class="faction-text">
                 <span class="tag">MB</span>
                 <h3>모르포스 바이오다인 <small>MORPHOS BIODYNE</small></h3>
@@ -92,7 +127,14 @@
               </div>
               <img class="faction-img" src="../images/factions/morphos.jpg" alt="Morphos Biodyne">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="cerberus"
+                data-tag="CDG"
+                data-name-ko="케르베로스 디펜스 그룹"
+                data-name-en="CERBERUS DEFENSE GROUP"
+                data-summary="대량생산과 압도적 화력을 중시하는 군산복합체. 총기·중화기, 군용 사이버웨어, 장갑차, 전투드론, 포병체계. 기업군 핵심 전력 트라이던트. &quot;화력은 거짓말하지 않는다.&quot;"
+                data-emblem="../images/factions/cerberus.jpg"
+                data-org="../images/factions/org/cerberus.jpg">
               <div class="faction-text">
                 <span class="tag">CDG</span>
                 <h3>케르베로스 디펜스 그룹 <small>CERBERUS DEFENSE GROUP</small></h3>
@@ -100,7 +142,14 @@
               </div>
               <img class="faction-img" src="../images/factions/cerberus.jpg" alt="Cerberus Defense Group">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="charon"
+                data-tag="CI"
+                data-name-ko="카론 인터콘티넨털"
+                data-name-en="CHARON INTERCONTINENTAL"
+                data-summary="도시와 대륙을 연결하는 물류기업. 장갑열차, 육상선·카라반, 수송로·중계기지, 차량 생산. 카론의 노선에서 제외된 도시는 서서히 쇠퇴한다."
+                data-emblem="../images/factions/charon.jpg"
+                data-org="../images/factions/org/charon.jpg">
               <div class="faction-text">
                 <span class="tag">CI</span>
                 <h3>카론 인터콘티넨털 <small>CHARON INTERCONTINENTAL</small></h3>
@@ -108,7 +157,14 @@
               </div>
               <img class="faction-img" src="../images/factions/charon.jpg" alt="Charon Intercontinental">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="argos"
+                data-tag="ASN"
+                data-name-ko="아르고스 시큐어 네트워크"
+                data-name-en="ARGOS SECURE NETWORKS"
+                data-summary="블루넷과 데이터의 실질적 관리자. 금융결제, 신원인증, 통신, AI, 보안·감시, 언론·가상현실. 한 사람의 계좌·신분·시민권을 모두 삭제해 사회적으로 존재하지 않는 사람으로 만들 수 있다."
+                data-emblem="../images/factions/argos.jpg"
+                data-org="../images/factions/org/argos.jpg">
               <div class="faction-text">
                 <span class="tag">ASN</span>
                 <h3>아르고스 시큐어 네트워크 <small>ARGOS SECURE NETWORKS</small></h3>
@@ -143,7 +199,14 @@
           <h2>특수 조직</h2>
 
           <ul class="item-list">
-            <li>
+            <li class="faction-entry"
+                data-id="eclipse"
+                data-tag="ETB"
+                data-name-ko="이클립스 전술국"
+                data-name-en="ECLIPSE TACTICAL BUREAU"
+                data-summary="블루 테이블 공동인가 초기업적 특수치안조직. &quot;빛이 지나치다면, 우리는 그것을 가린다.&quot; 군용 사이버웨어 폭주자, 대형 전투드론, 블루넷·급수시설 테러, 전투 AI 등 도시 단위 피해를 일으킬 수 있는 위협에 대응. 생포보다 위협 제거가 우선될 수 있다."
+                data-emblem="../images/factions/eclipse.jpg"
+                data-org="../images/factions/org/eclipse.jpg">
               <div class="faction-text">
                 <span class="tag">ETB</span>
                 <h3>이클립스 전술국 <small>ECLIPSE TACTICAL BUREAU</small></h3>
@@ -151,13 +214,35 @@
               </div>
               <img class="faction-img" src="../images/factions/eclipse.jpg" alt="Eclipse Tactical Bureau">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="lazarus"
+                data-tag="LMR"
+                data-name-ko="라자루스"
+                data-name-en="LAZARUS MEDICAL RESPONSE"
+                data-summary="회원제 응급의료·전투구조·의료보험 기업. &quot;당신의 죽음은 아직 승인되지 않았습니다.&quot; 가입자 생체신호가 위험수준에 도달하면 무장 구조팀이 출동. 계약등급: 더스트 → 쉘터 → 오아시스 → 에덴."
+                data-emblem="../images/factions/lazarus.jpg"
+                data-org="../images/factions/org/lazarus.jpg">
               <div class="faction-text">
                 <span class="tag">LMR</span>
                 <h3>라자루스 <small>LAZARUS MEDICAL RESPONSE</small></h3>
                 <p>회원제 응급의료·전투구조·의료보험 기업. "당신의 죽음은 아직 승인되지 않았습니다." 가입자 생체신호가 위험수준에 도달하면 무장 구조팀이 출동. 계약등급: 더스트 → 쉘터 → 오아시스 → 에덴.</p>
               </div>
               <img class="faction-img" src="../images/factions/lazarus.jpg" alt="Lazarus Medical Response">
+            </li>
+            <li class="faction-entry"
+                data-id="dcs"
+                data-tag="DCS"
+                data-name-ko="돔 시빅 시큐어리티"
+                data-name-en="DOME CIVIC SECURITY"
+                data-summary="돔 시티의 일상 치안을 담당하는 시민경찰 조직. 순찰, 범죄수사, 교통통제, 소요 진압과 지역 안전을 담당하며, 도시급 재난이나 초고위험 전투 상황은 이클립스에 인계한다."
+                data-emblem="../images/factions/dcs.jpg"
+                data-org="../images/factions/org/dcs.jpg">
+              <div class="faction-text">
+                <span class="tag">DCS</span>
+                <h3>돔 시빅 시큐어리티 <small>DOME CIVIC SECURITY</small></h3>
+                <p>돔 시티의 일상 치안을 담당하는 시민경찰 조직. 순찰, 범죄수사, 교통통제, 소요 진압과 지역 안전을 담당하며, 도시급 재난이나 초고위험 전투 상황은 이클립스에 인계한다.</p>
+              </div>
+              <img class="faction-img" src="../images/factions/dcs.jpg" alt="Dome Civic Security">
             </li>
           </ul>
 
@@ -169,37 +254,139 @@
           <p class="section-tag">09 / GANGS</p>
           <h2>주요 갱단</h2>
           <ul class="item-list">
-            <li>
+            <li class="faction-entry"
+                data-id="lowline"
+                data-tag="LOW"
+                data-name-ko="로우라인"
+                data-name-en="LOWLINE"
+                data-summary="돔 하층·지하 기반시설 장악. 밀입국, 비밀통로, 불법 전력·냉각망, 시설 침투, 밀수."
+                data-emblem="../images/factions/lowline.jpg"
+                data-org="../images/factions/org/lowline.jpg">
               <div class="faction-text"><span class="tag">LOW</span><h3>로우라인 LOWLINE</h3><p>돔 하층·지하 기반시설 장악. 밀입국, 비밀통로, 불법 전력·냉각망, 시설 침투, 밀수.</p></div>
               <img class="faction-img" src="../images/factions/lowline.jpg" alt="Lowline">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="velvet"
+                data-tag="VS"
+                data-name-ko="벨벳 스태틱"
+                data-name-en="VELVET STATIC"
+                data-summary="유흥·정보·기억·신분세탁. 감각기록, 불법 신경계 개조, 기업인 협박, 가짜 시민권, 기억조작."
+                data-emblem="../images/factions/velvet.jpg"
+                data-org="../images/factions/org/velvet.jpg">
               <div class="faction-text"><span class="tag">VS</span><h3>벨벳 스태틱 VELVET STATIC</h3><p>유흥·정보·기억·신분세탁. 감각기록, 불법 신경계 개조, 기업인 협박, 가짜 시민권, 기억조작.</p></div>
               <img class="faction-img" src="../images/factions/velvet.jpg" alt="Velvet Static">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="sundogs"
+                data-tag="SUN"
+                data-name-ko="선독스"
+                data-name-en="SUNDOGS"
+                data-summary="황무지 차량 갱단 연합. 카라반 습격, 차량 탈취, 불법 경주, 황무지 통행료, 유료 호위."
+                data-emblem="../images/factions/sundogs.jpg"
+                data-org="../images/factions/org/sundogs.jpg">
               <div class="faction-text"><span class="tag">SUN</span><h3>선독스 SUNDOGS</h3><p>황무지 차량 갱단 연합. 카라반 습격, 차량 탈취, 불법 경주, 황무지 통행료, 유료 호위.</p></div>
               <img class="faction-img" src="../images/factions/sundogs.jpg" alt="Sundogs">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="saintzero"
+                data-tag="SZ"
+                data-name-ko="세인트 제로"
+                data-name-en="SAINT ZERO"
+                data-summary="불법 의료·사이버웨어 밀매. 불법 의체이식, 추적코드 제거, 열화증 억제제, 군용 사이버웨어."
+                data-emblem="../images/factions/saintzero.jpg"
+                data-org="../images/factions/org/saintzero.jpg">
               <div class="faction-text"><span class="tag">SZ</span><h3>세인트 제로 SAINT ZERO</h3><p>불법 의료·사이버웨어 밀매. 불법 의체이식, 추적코드 제거, 열화증 억제제, 군용 사이버웨어.</p></div>
               <img class="faction-img" src="../images/factions/saintzero.jpg" alt="Saint Zero">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="deadair"
+                data-tag="DA"
+                data-name-ko="데드 에어"
+                data-name-en="DEAD AIR"
+                data-summary="정체불명 넷러너 집단. 블루넷 공격, 신분 삭제·조작, 기업기밀 탈취, 전투드론 탈취, 가짜 재난경보."
+                data-emblem="../images/factions/deadair.jpg"
+                data-org="../images/factions/org/deadair.jpg">
               <div class="faction-text"><span class="tag">DA</span><h3>데드 에어 DEAD AIR</h3><p>정체불명 넷러너 집단. 블루넷 공격, 신분 삭제·조작, 기업기밀 탈취, 전투드론 탈취, 가짜 재난경보.</p></div>
               <img class="faction-img" src="../images/factions/deadair.jpg" alt="Dead Air">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="blacktop"
+                data-tag="BTU"
+                data-name-ko="블랙탑 유니언"
+                data-name-en="BLACKTOP UNION"
+                data-summary="운전사·정비사 무장노조에서 성장한 도로조직. 독립 수송, 밀수, 충전소·도로 장악, 카론과 경쟁."
+                data-emblem="../images/factions/blacktop.jpg"
+                data-org="../images/factions/org/blacktop.jpg">
               <div class="faction-text"><span class="tag">BTU</span><h3>블랙탑 유니언 BLACKTOP UNION</h3><p>운전사·정비사 무장노조에서 성장한 도로조직. 독립 수송, 밀수, 충전소·도로 장악, 카론과 경쟁.</p></div>
               <img class="faction-img" src="../images/factions/blacktop.jpg" alt="Blacktop Union">
             </li>
-            <li>
+            <li class="faction-entry"
+                data-id="ashcrown"
+                data-tag="AC"
+                data-name-ko="애시 크라운"
+                data-name-en="ASH CROWN"
+                data-summary="돔 외곽·장막도시 대형 스트리트 갱. 구역 관리, 무기·약물, 투기장, 기업물자 강탈, 시위·폭동."
+                data-emblem="../images/factions/ashcrown.jpg"
+                data-org="../images/factions/org/ashcrown.jpg">
               <div class="faction-text"><span class="tag">AC</span><h3>애시 크라운 ASH CROWN</h3><p>돔 외곽·장막도시 대형 스트리트 갱. 구역 관리, 무기·약물, 투기장, 기업물자 강탈, 시위·폭동.</p></div>
               <img class="faction-img" src="../images/factions/ashcrown.jpg" alt="Ash Crown">
             </li>
           </ul>
         </article>
+
+        <article class="article-section" id="caravans">
+          <p class="section-tag">10 / CARAVANS</p>
+          <h2>카라반</h2>
+          <p>장막도시를 거점으로 황무지의 교역로를 오가는 대상단. 기업 노선 밖의 생존과 거래를 이어가는 독립 세력이다.</p>
+          <ul class="item-list">
+            <li class="faction-entry"
+                data-id="ironlantern"
+                data-tag="ILC"
+                data-name-ko="아이언 랜턴 카라반"
+                data-name-en="IRON LANTERN CARAVAN"
+                data-summary="장막 도시를 거점으로 황무지의 교역로를 오가는 대상단. 물과 의약품, 기계 부품을 운송하며 철저한 장부 관리와 신용을 바탕으로 위험한 길에서도 거래를 이어간다."
+                data-emblem="../images/factions/ironlantern.jpg"
+                data-org="../images/factions/org/ironlantern.jpg">
+              <div class="faction-text">
+                <span class="tag">ILC</span>
+                <h3>아이언 랜턴 카라반 <small>IRON LANTERN CARAVAN</small></h3>
+                <p>장막 도시를 거점으로 황무지의 교역로를 오가는 대상단. 물과 의약품, 기계 부품을 운송하며 철저한 장부 관리와 신용을 바탕으로 위험한 길에서도 거래를 이어간다.</p>
+              </div>
+              <img class="faction-img" src="../images/factions/ironlantern.jpg" alt="Iron Lantern Caravan">
+            </li>
+          </ul>
+        </article>
       </main>
+    </div>
+  </div>
+
+  <div class="faction-panel" id="faction-panel" aria-hidden="true">
+    <div class="faction-panel-card" role="dialog" aria-modal="true" aria-labelledby="faction-panel-title">
+      <div class="faction-panel-head">
+        <div class="faction-panel-head-text">
+          <p class="faction-panel-tag" id="faction-panel-tag"></p>
+          <h2 class="faction-panel-title" id="faction-panel-title"></h2>
+        </div>
+        <button type="button" class="faction-panel-close" id="faction-panel-close" aria-label="닫기">×</button>
+      </div>
+      <div class="faction-panel-body">
+        <div class="faction-panel-top">
+          <div class="faction-panel-media emblem">
+            <img id="faction-panel-emblem" src="" alt="">
+          </div>
+          <div class="faction-panel-info">
+            <p class="faction-panel-info-note" id="faction-panel-note">ARCHIVE // FACTION BRIEF</p>
+            <p class="faction-panel-summary" id="faction-panel-summary"></p>
+          </div>
+        </div>
+        <div class="faction-panel-detail" id="faction-panel-detail" hidden></div>
+        <div class="faction-panel-section">
+          <p class="faction-panel-section-label">ORGANIZATION CHART</p>
+          <div class="faction-panel-media org">
+            <img id="faction-panel-org" src="" alt="">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -209,20 +396,7 @@
 
   <script src="../js/main.js"></script>
   <script src="../js/search.js"></script>
-  <script>
-  (function(){
-    const lb = document.getElementById('lightbox');
-    const lbImg = document.getElementById('lightbox-img');
-    document.querySelectorAll('.faction-img').forEach(img => {
-      img.addEventListener('click', () => {
-        lbImg.src = img.src;
-        lbImg.alt = img.alt;
-        lb.classList.add('active');
-      });
-    });
-    lb.addEventListener('click', () => lb.classList.remove('active'));
-  })();
-  </script>
+  <script src="../js/faction-info.js"></script>
+  <script src="../js/factions.js"></script>
 </body>
 </html>
-
