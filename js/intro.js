@@ -1,4 +1,4 @@
-const BOOT_LINES = [
+﻿const BOOT_LINES = [
   { text: "NEURAL LINK", suffix: "ESTABLISHING...", cls: "status-info" },
   { text: "KERNEL", suffix: "WHITE_NIGHT_v0.1 LOADED", cls: "status-ok" },
   { text: "MEMORY", suffix: "ALLOCATING SECTORS...", cls: "status-sys" },
@@ -22,10 +22,30 @@ function runIntroSequence(onComplete) {
 
   if (!overlay || !trigger) return;
 
-  const skipIntro = sessionStorage.getItem("wn-intro-done");
+  const showMain = () => {
+    main?.classList.add("visible");
+  };
+
+  const readIntroFlag = () => {
+    try {
+      return sessionStorage.getItem("wn-intro-done");
+    } catch (_) {
+      return null;
+    }
+  };
+
+  const writeIntroFlag = () => {
+    try {
+      sessionStorage.setItem("wn-intro-done", "1");
+    } catch (_) {
+      /* ignore storage failures (private mode / blocked storage) */
+    }
+  };
+
+  const skipIntro = readIntroFlag();
   if (skipIntro) {
     overlay.remove();
-    main?.classList.add("visible");
+    showMain();
     return;
   }
 
@@ -46,8 +66,8 @@ function runIntroSequence(onComplete) {
 
         setTimeout(() => {
           overlay.classList.add("fade-out");
-          main?.classList.add("visible");
-          sessionStorage.setItem("wn-intro-done", "1");
+          showMain();
+          writeIntroFlag();
 
           setTimeout(() => overlay.remove(), 700);
           if (onComplete) onComplete();
@@ -73,4 +93,13 @@ function runIntroSequence(onComplete) {
   });
 }
 
-document.addEventListener("DOMContentLoaded", () => runIntroSequence());
+document.addEventListener("DOMContentLoaded", () => {
+  try {
+    runIntroSequence();
+  } catch (_) {
+    const overlay = document.getElementById("intro-overlay");
+    const main = document.getElementById("main-content");
+    overlay?.remove();
+    main?.classList.add("visible");
+  }
+});

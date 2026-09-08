@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   const INDEX = [
     // 세계관 개요 (index.html)
     { page: "세계관 개요", heading: "백야", text: "헬리오스 위성망이 폭주한 사건 당일은 백야(白夜)라고 불린다. 궤도의 반사 위성들이 태양광을 계속 반사하면서 하늘 전체가 새하얗게 타올랐고, 그날 밤은 오지 않았다.", url: "index.html" },
